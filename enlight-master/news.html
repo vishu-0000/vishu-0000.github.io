@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<!-- 
+  Theme Name: Enlight
+  Theme URL: https://probootstrap.com/enlight-free-education-responsive-bootstrap-website-template
+  Author: ProBootstrap.com
+  Author URL: https://probootstrap.com
+  License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>News</title>
+    <meta name="description" content="Free Bootstrap Theme by ProBootstrap.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <div id="navbar" style="z-index: 10;background-color: white;width:100%">
+    
+      <nav class="navbar navbar-default probootstrap-navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="btn-more js-btn-more visible-xs">
+              <a href="#"><i class="icon-dots-three-vertical "></i></a>
+            </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html" > <img src="img/Vijyoti_Logo.png" style="position: absolute;width: 80%;height: 110%;top:-20%"> </img></a>
+          </div>
+
+          <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right" style="position: relative;margin-left: 2%">
+              <li ><a href="index.html">Home</a></li>
+              
+              <li><a href="healthcareProducts.html">Healthcare Products</a></li>
+              <li><a href="healthcareServices.html">Healthcare Services</a></li>
+              <li><a href="Query.html">Product Query</a></li>
+              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Case Studies</a>
+                <ul class="dropdown-menu">
+                  <li><a href="liver.html">Liver</a></li>
+                  <li><a href="Heart.html">Heart</a></li>
+                  <li><a href="Trauma.html">Trauma</a></li>
+                </ul>
+                  
+              <li  class="active"><a href="news.html">News</a></li>
+              <li><a href="events.html">Event</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+<style>
+
+.sticky {
+    position: fixed;
+    top: 0;
+    //width: 100%
+    //left:220%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("img/pics/office2.jpg");
+    background-size: 85% 140%;
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+   // background-size: cover;
+   margin-top: 10%;
+   margin-bottom:10%;
+}
+figure
+{
+  margin-bottom: 10%;
+}
+</style>
+ <script>
+    window.onscroll = function() { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+    </script>
+      <div class="parallax">
+      <section class="probootstrap-section">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <a href="#" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img style="display: none" src="img/img_sm_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                <div class="probootstrap-text">
+                  <h3 style="margin-top: 10%">Tempora consectetur unde nisi</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, quaerat?</p>
+                  
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <a href="#" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img style="display: none;" src="img/img_sm_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                <div class="probootstrap-text">
+                  <h3 style="margin-top: 10%">Tempora consectetur unde nisi</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, unde?</p>
+               
+                </div>
+              </a>
+            </div>
+            <div class="clearfix visible-sm-block visible-xs-block"></div>
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <a href="#" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img style="display: none;" src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                <div class="probootstrap-text">
+                  <h3 style="margin-top: 10%">Tempora consectetur unde nisi</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, possimus!</p>
+              
+                </div>
+              </a>
+            </div>
+
+            <div class="clearfix visible-md-block"></div>
+
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <a href="#" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img style="display: none;" src="img/img_sm_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                <div class="probootstrap-text">
+                  <h3 style="margin-top: 10%">Tempora consectetur unde nisi</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, sunt!</p>
+                  
+                </div>
+              </a>
+            </div>
+            <div class="clearfix visible-sm-block visible-xs-block"></div>
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <a href="#" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img style="display: none" src="img/img_sm_2.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                <div class="probootstrap-text">
+                  <h3 style="margin-top: 10%">Tempora consectetur unde nisi</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, voluptatem.</p>
+              
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
+              <a href="#" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img style="display: none" src="img/img_sm_3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
+                <div class="probootstrap-text">
+                  <h3 style="margin-top: 10%">Tempora consectetur unde nisi</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, magnam.</p>
+                
+                </div>
+              </a>
+            </div>
+            <div class="clearfix visible-sm-block visible-xs-block"></div>
+
+          </div>
+
+        </div>
+      </section>
+      </div>
+      <section class="probootstrap-cta">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">Vijyoti - Cutting costs - Saving lives</h2>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="probootstrap-footer probootstrap-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="probootstrap-footer-widget">
+                <h3>Vijyoti</h3>
+                <p>Vijyoti, focused on healthcare and marketing communications and media services sector, was founded in 2007. Headquartered in Delhi, NCR with representative offices in Mumbai (India) and Montreal (Canada).</p>
+                <h3>Social</h3>
+                <ul class="probootstrap-footer-social">
+                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-github"></i></a></li>
+                  <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                  <li><a href="#"><i class="icon-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-md-push-1">
+              <div class="probootstrap-footer-widget">
+                <h3>Links</h3>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="healthcareProducts.html">Healthcare Products</a></li>
+                  <li><a href="healthcareServices.html">Heathcare Services</a></li>
+                  <li><a href="events.html">Events</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="probootstrap-footer-widget">
+                <h3>Contact Info</h3>
+                <ul class="probootstrap-contact-info">
+                  <li><i class="icon-location2"></i> <span>Vijyoti NewDelhi</span></li>
+                  <li><i class="icon-mail"></i><span>info@vijyoti.com</span></li>
+                  <li><i class="icon-phone2"></i><span>+123 456 7890</span></li>
+                </ul>
+              </div>
+            </div>
+           
+          </div>
+          <!-- END row -->
+          
+        </div>
+
+        <div class="probootstrap-copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 text-left">
+                <p>&copy; 2017  All Rights Reserved. Designed &amp; Developed with <i class="icon icon-heart"></i> by <a href="https://www.facebook.com/vidushi.agarwal.562">Vidushi</a></p>
+              </div>
+              <div class="col-md-4 probootstrap-back-to-top">
+                <p><a href="#" class="js-backtotop">Back to top <i class="icon-arrow-long-up"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- END wrapper -->
+    
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>

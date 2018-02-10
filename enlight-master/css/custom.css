@@ -1,0 +1,473 @@
+
+body {
+  background: #EFF0F4;
+  color: #8b8e94;
+  line-height: 28px;
+  font-size: 15px;
+  font-family: "Raleway", Arial, sans-serif;
+  padding: 0%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #181920;
+  line-height: 1.5;
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 300;
+ // margin: 0 0 30px 0;
+}
+a {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  color: #ed7733;
+}
+
+a:hover, a:focus, a:active {
+  color: #ed7733;
+  text-decoration: none;
+}
+.probootstrap-header-top > .container {
+  border-bottom: 1px solid #f2f2f2;
+}
+.probootstrap-top-social ul li a {
+  display: inline-block;
+  padding: 4px;
+  color: #ed7733;
+}
+
+.probootstrap-navbar .btn-more a {
+  color: #b3b2b2;
+}
+
+.probootstrap-navbar .btn-more a:hover {
+  color: #1a1919;
+}
+.probootstrap-navbar .dropdown > .dropdown-menu > li a:hover {
+  border-top: none;
+  background: #ffffff;
+  color: #ed7733;
+}
+
+.probootstrap-navbar .dropdown > .dropdown-menu > li.open > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:hover > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:focus > a, .probootstrap-navbar .dropdown > .dropdown-menu > li:active > a {
+  border-top: none;
+  color: #ed7733;
+  background: #ffffff;
+}
+.probootstrap-navbar .dropdown-menu {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #ed7733;
+  border-radius: 0;
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
+  min-width: 200px;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.probootstrap-navbar .navbar-nav > li > .dropdown-menu:before {
+  border: 1px solid #ed7733;
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 40px;
+  border-color: rgba(73, 210, 146, 0);
+  border-bottom-color: #ed7733;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.probootstrap-home-showcase-wrap .probootstrap-home-showcase-inner .probootstrap-chrome {
+  background: #dddde0;
+  padding: 15px;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+}
+
+
+.probootstrap-home-showcase-wrap .probootstrap-home-showcase-inner .probootstrap-chrome > div > span {
+  width: 5px;
+  height: 5px;
+  display: block;
+  float: left;
+  margin-right: 4px;
+  background: #898991;
+  border-radius: 50%;
+}
+.btn.btn-primary {
+  border: 1px solid #ed7733;
+  background: #ed7733;
+  color: #ffffff;
+}
+
+.btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+  background: #ed7733;
+}
+
+.btn.btn-primary:focus, .btn.btn-primary:active {
+  outline: none;
+  border: 1px solid #ed7733;
+}
+.btn1 {
+  //border: 1px solid #ed7733;
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.btn1:hover, .btn1:active, .btn1:focus {
+  background:transparent;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.btn1:focus, .btn1:active {
+  outline: none;
+border: 1px solid transparent;
+}
+
+.btn.btn-ghost {
+  background: transparent;
+  border: 1px solid #ed7733;
+  color: #ed7733;
+}
+
+.btn.btn-ghost:hover {
+  background: #ed7733;
+  color: #ffffff;
+}
+
+
+.btn.btn-ghost:focus, .btn.btn-ghost:active {
+  outline: none;
+  background: transparent;
+  color: #ed7733;
+  border: 1px solid #ed7733;
+}
+.probootstrap-section.probootstrap-section-colored {
+  background: #ed7733;
+}
+
+.probootstrap-cta {
+  padding: 3em 0;
+  background: #ed7733;
+  color: #ffffff;
+}
+
+
+.probootstrap-cta .btn.btn-ghost:hover {
+  background: #ffffff;
+  color: #ed7733;
+}
+
+.probootstrap-footer .probootstrap-copyright {
+  padding: 3em 0;
+  margin-top: 20px;
+  background: #1a1919;
+
+}
+.probootstrap-search .probootstrap-close {
+  color: #b3b2b2;
+  right: 30px;
+  top: 30px;
+  position: absolute;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .probootstrap-search .probootstrap-close {
+    right: 20px;
+    top: 20px;
+  }
+}
+
+.probootstrap-search .probootstrap-close:hover {
+  color: #807f7f;
+}
+.probootstrap-uppercase {
+  color: #b3b2b2;
+  font-size: 14px;
+  margin-bottom: 5px;
+}.nav-tabs.probootstrap-tabs > li > a, .nav-pills.probootstrap-tabs > li > a {
+  border-radius: 0px;
+  padding: 20px 30px;
+  background: #ed7733;
+  color: #ffffff;
+  font-size: 16px;
+  border: none !important;
+}
+.nav-tabs.probootstrap-tabs > li > a:hover, .nav-pills.probootstrap-tabs > li > a:hover {
+  background: #ed7733;
+}
+.probootstrap-featured-news-box:hover .probootstrap-text, .probootstrap-featured-news-box:focus .probootstrap-text {
+  background: #ed7733;
+  top: -40px;
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.service .icon i {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.2);
+  color: #ed7733;
+}
+
+
+.probootstrap-service-2 .text .probootstrap-meta {
+  font-size: 14px;
+  color: #b3b2b2;
+}
+
+.enrolled-count {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #b3b2b2;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-style: italic;
+}
+.modal .probootstrap-modal-flex .btn-connect-facebook {
+  background: #ed7733;
+  border-color: #ed7733;
+  color: #ffffff;
+}
+
+.modal .probootstrap-modal-flex .btn-connect-twitter {
+  background: #ed7733;
+  border-color: #ed7733;
+  color: #ffffff;
+}
+
+.modal .probootstrap-modal-flex .btn-connect-google {
+  background: #ea4335;
+  border-color: #ea4335;
+  color: #ffffff;
+}
+.probootstrap-pricing h3 > span {
+  margin-top: 10px;
+  display: block;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #ed7733;
+  font-size: 14px;
+}
+
+.probootstrap-pricing .probootstrap-price-wrap {
+  margin-bottom: 50px;
+}
+
+.probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
+  font-size: 50px;
+  color: #ed7733;
+  font-weight: 100;
+  display: block;
+  margin-bottom: 10px;
+}
+.probootstrap-counter-wrap .probootstrap-icon i {
+  font-size: 40px;
+  color: #ed7733;
+}
+.probootstrap-featured-news-box .probootstrap-text {
+  position: relative;
+  z-index: 2;
+  background: #ffffff;
+  padding: 20px;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.05);
+  margin-left: 10px;
+  margin-right: 10px;
+  top: -30px;
+  -webkit-transition: .3s all;
+  transition: .3s all;
+  border-bottom: 3px solid #ed7733;
+}
+.probootstrap-featured-news-box:hover .probootstrap-text, .probootstrap-featured-news-box:focus .probootstrap-text {
+  background: #ed7733;
+  top: -40px;
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #ed7733;
+}
+a:hover, a:focus, a:active {
+  color: #ed7733;
+  text-decoration: none;
+}
+.probootstrap-navbar .navbar-nav > li.active > a {
+  background: none !important;
+  color: #ed7733 !important;
+}
+body
+{
+  background-color: white;
+  overflow-x: hidden;
+  text-align: justify;
+}
+#bgVideo
+   { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    z-index: -4;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    }
+    .pentagon4
+{
+  z-index:-2; 
+width:90%;
+height:900%;
+//background-image:url("http://www.skaware.com/wp-content/uploads/2013/08/0a36f_cool_laptop_gadgets_3382865257_c1812ee1fc.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+position:absolute;
+
+
+}
+#particles-js {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  z-index:10;
+  background-color:transparent;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.probootstrap-hero > .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+
+.flexslider .slides > li.overlay:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.anime
+ {
+ 
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+@-webkit-keyframes example {
+    0%   {left:0px; top:0px;}
+    100%  { left:70%; top:0px;}
+   
+}
+
+/* Standard syntax */
+@keyframes example {
+     0%   {left:0px; top:0px;}
+    100%  { left:70%; top:0px;}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .probootstrap-navbar .navbar-brand {
+    position: relative;
+    width: 160px;
+    height: 43px;
+    background: url("") no-repeat left 100%;
+    background-size: cover;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .probootstrap-navbar .navbar-brand {
+    position: relative;
+    width: 160px;
+    height: 43px;
+   background: url("") no-repeat left 100%;
+    background-size: cover;
+  }
+}
+.probootstrap-navbar .navbar-brand {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  font-size: 30px;
+  text-transform: uppercase;
+  background: url("") no-repeat left 100%;
+  top: 24px;
+  position: relative;
+  width: 160px;
+  height: 43px;
+  text-indent: -999999px;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+.flexslider .slides > li.overlay:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+button
+{
+  background-color: black;
+}
+
+.probootstrap-service-2 .text {
+  width: 100%;
+}
+
+
+.probootstrap-service-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+.teamimg
+{
+    background-image: url(../img/pics/doctrain.jpg);
+    background-size:cover;
+}
+.probootstrap-featured-news-box:hover .probootstrap-text p, .probootstrap-featured-news-box:focus .probootstrap-text p {
+  color: white;
+}
+li
+{
+  background-size: 40% 50%;
+}
+
+
+.slider-height, .flexslider, .flexslider .slides > li {
+  height: 450px;
+  width: 600px;
+}
+
+@media screen and (max-width: 480px) {
+  .slider-height, .flexslider, .flexslider .slides > li {
+    height:300px;
+    width:300px;
+  }
+}
