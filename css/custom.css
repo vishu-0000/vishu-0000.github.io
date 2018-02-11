@@ -329,6 +329,22 @@ position:absolute;
 
 
 }
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .pentagon4{
+    //margin-top:-150%;
+ z-index:-2; 
+width:80%;
+height:500%;
+//background-image:url("http://www.skaware.com/wp-content/uploads/2013/08/0a36f_cool_laptop_gadgets_3382865257_c1812ee1fc.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+position:absolute;
+}
+}
+
+
 #particles-js {
   position:absolute;
   width: 100%;
