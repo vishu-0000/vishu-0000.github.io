@@ -24,31 +24,6 @@
         document.getElementById('loader').style.display = "none";
     }
     </script>
-<style type="text/css">
-                
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-.ch-grid
-{
-    position: relative;
-    top:80%;
-}
-.divi
-{
-    position: relative;
-    top:420%;
-}
-.img3
-{
-    display: none;
-
-}
-.teamimg
-{
-margin-top: 180%;
-position: relative;
-top:180%;
-}
-              </style>
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -679,13 +654,19 @@ max-width:100%;
             
     </section>
    
-
+   <style type="text/css">
+@media screen and (max-width: 480px) {
+    .testi 
+  {
+    display: none;
+}
+</style>
             <!-- END row -->
             <div class="container">
             <div class="row">
                 <div class="col-md-6 probootstrap-animate">
-            <section style="position: relative;margin-top: -10%">
-               <h2 style="text-align: center;"> Testimonials</h2>
+            <section style="position: relative;margin-top: -10%;z-index: 3;" class="testi">
+               <h2  style="text-align: center;"> Testimonials</h2>
                     <div class="owl-carousel owl-carousel-testimony owl-carousel-fullwidth">
                         <div class="item">
                             <div class="probootstrap-testimony-wrap text-center">
@@ -728,7 +709,7 @@ max-width:100%;
 
     <div class="col-sm-6 probootstrap-animate">
      <section class="flexslider" style="margin-top:-25%;position: relative; height:40%;">
-        <h2 style="text-align:center;position: relative;z-index: 2;"> Our Clients</h2>
+        <h2 style="text-align:center;position: relative;z-index:6;"> Our Clients</h2>
         <ul class="slides">
             <li style="background-image: url(img/pics/1469447035-756x485.jpg)">
                 <!-- <div id="particles-js1" style="background: yellow;width:600px;height: 600px;position: absolute;"><div id="particles-js"></div></div>-->
@@ -766,32 +747,54 @@ max-width:100%;
               
             </div>
 <style type="text/css">
+
 @media screen and (max-width: 480px) {
-     .img4
-  {
-    display: none;
-    margin-bottom: 10%;
-   
-  }
+    
+.img3{
+opacity: 0.2;
+position: relative;
+height: 1%
+ }
+ .divi
+ {
+    margin-top: -220%;
+    z-index: 2;
+    position: relative;
+    left: 30%;
+ }
+  
 }
+@media screen and (min-width: 480px)
+{
+.img3{
+position:relative;height:5%;width:90%;margin-top:-35%;margin-bottom: 15%;
+
+
+                                   z-index: 2; 
+
+}
+.divi{
+    position:relative;margin-top:-100%; margin-right:10%;color:white;background:rgba(0,0,0,0.6);text-align: center;z-index: 3;
+}
+
+}
+
+
 </style>
 
      <section style="margin-bottom: 10%;" class="img4">
         <div class="container">
                             <div class="row" style="margin-top: 5%">
                                 <div class="col-sm-4" class="teamimg" style="">
-                                   <!-- <h2> Meet<br> our<br> team</h2>-->
-                                   <img class="img3" style="position:relative;height:5%;width:90%;margin-top:7%;margin-bottom: 15%;
-
-
-                                   z-index: -1 " src="img/pics/doctrain.jpg"></img>
-                                   <h1 class="divi" style="position:relative;margin-top:-100%; margin-right:10%;color:white;background:rgba(0,0,0,0.6);text-align: center;"><b> Why <br>Us?</b></h1>
+                                
+                                   <img class="img3" src="img/pics/doctrain.jpg"></img>
+                                   <h1 class="divi"><b> Why <br>Us?</b></h1>
                                 </div>
                                 <div class="col-sm-8" >
     
-        <div class="container" style="margin-top: 10%" class="img4">
+        <div class="container" class="img5">
            
-                    <div class="service left-icon probootstrap-animate">
+                    <div class="service left-icon probootstrap-animate" class="img6">
                         <div class="icon"> <i style="font-size: 150%" class="icon-smile2"></i>
 </div>
                         <div class="text">
@@ -835,7 +838,7 @@ max-width:100%;
         </div>
     </section>
     <!--editting-->
-    <section class="probootstrap-cta" style=" padding: 1em 0;">
+    <section class="probootstrap-cta" style=" padding: 1em 0;position: relative;z-index: 5">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -854,28 +857,72 @@ max-width:100%;
   }
 }
               </style>
-    <footer class="probootstrap-footer probootstrap-bg">
+    <footer class="probootstrap-footer probootstrap-bg" style="position: relative;z-index: 5">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <div class="probootstrap-footer-widget">
+                        <div class="hideit">
                         <h3>Vijyoti</h3>
-                        <p style="margin-top:-8%"> Vijyoti, focused on healthcare and marketing communications and media services sector, was founded in 2007. Headquartered in Delhi, NCR with representative offices in Mumbai (India) and Montreal (Canada).</p>
-                        
+                        <p style="margin-top:-8%"> Vijyoti, focused on healthcare and marketing communications and media services sector, was founded in 2007. Headquartered in Delhi, NCR with representative offices in Mumbai (India) and Montreal (Canada).</p></div>
+                           <div class="hideit1">
                         <ul class="probootstrap-contact-info" style="padding-bottom:0em;margin-top: -5%">
                             <li><i class="icon-location2"></i> <span>Vijyoti NewDelhi</span>
                             <i class="icon-mail"></i><span>info@vijyoti.com</span>
                             <i class="icon-phone2"></i><span>+1234567890</span></li>
                         </ul>
                     </div>
+                    </div>
                 </div>
                             <div class="col-md-3 col-md-push-1">
               <div class="probootstrap-footer-widget">
                 <style type="text/css">
-                   .ch-info h4{
+                  .ch-info h4{
                         color:white;
                     }
                 </style>
+                <style type="text/css">
+                
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+ .rteam
+  {
+    display: none;
+  }
+
+  .newrteam
+  {
+    display:block;
+    margin-top: -10%;
+  }
+  .hideit
+  {
+    
+    display: none;
+  }
+   
+.hideit1
+{
+    margin-top: 10%;
+}
+
+}
+@media screen and (min-width: 480px) {
+
+ .newrteam
+  {
+    display:none;
+  }
+
+}
+              </style>
+              <section class="newrteam">
+                Meet our team
+                 <p>Vijay G. Pande - Co-Founder & Managing Director<br> 
+                 Binay Dubey - Group President<br>
+                  Rajesh Sharma - Senior Vice President</p>
+                  
+              </section>
+                <section class="rteam">
                 <h3 style="text-align: center;" style="position: relative;top: -30%"> Meet our Team</h3>
                 <ul style="margin-top: -20%" >
 
@@ -921,6 +968,7 @@ max-width:100%;
                     </li>
 
                     </ul>
+                </section>
                     </div></div>
             <!--
                 <div class="col-md-4">
