@@ -487,3 +487,24 @@ li
     width:300px;
   }
 }
+
+.probootstrap-footer .probootstrap-copyright {
+  padding: 1em 0;
+  margin-top: 20px;
+  background: #1a1919;
+}
+@media screen and (max-width: 768px) {
+  .probootstrap-footer {
+    padding: 1em 0;
+  }
+}
+
+.probootstrap-footer{
+  padding: 0.5em;
+  //padding-bottom: -10%;
+}
+.probootstrap-cta {
+  padding: 1.5em 0;
+  background: #ed7733;
+  color: #ffffff;
+}
