@@ -27,7 +27,6 @@
 
 	top: 20px;
 	left: 20px;
-	//background: rgba(0,0,0,0.6) url(../images/bg.jpg);
 	box-shadow:
 		0 0 0 20px rgba(255,255,255,0.2),
 		inset 0 0 3px rgba(115,114, 23, 0.8);
@@ -79,37 +78,20 @@
 	background:rgba(0,0,0,0.6);
 }
 
-.ch-img-3 {
-	background-image: url(../img/pics/blood.jpg);
-	background-size:100% 120%;
-}
-
-.ch-img-2 {
-	background-image: url(../img/pics/who.jpg);
-	background-size: cover;
-}
 
 .ch-img-1 {
-	
-	background-image: url(../img/pics/pbm.jpg);
-	background-size:100% 150%;
-}
-.ch-img-4 {
-	background-image: url(../img/pics/who.jpg);
+	background-image: url(../img/pics/team1.JPG);
 	background-size: cover;
 }
-.ch-img-5 {
-	background-image: url(../img/pics/who.jpg);
+.ch-img-2 {
+	background-image: url(../img/pics/team2.JPG);
 	background-size: cover;
 }
-.ch-img-6 {
-	background-image: url(../img/pics/who.jpg);
+.ch-img-3 {
+	background-image: url(../img/pics/team2.JPG);
 	background-size: cover;
 }
-.ch-img-7 {
-	background-image: url(../img/pics/who.jpg);
-	background-size: cover;
-}
+
 .ch-info h3 {
 	color: #fff;
 	text-transform: uppercase;
